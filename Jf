@@ -1,0 +1,448 @@
+wait(0.1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "... جاري التحميل";
+    Text = "انتطر";
+    Duration = 5;
+})
+
+
+
+
+
+wait(2.5)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "تم التشغيل بنجاح✅️";
+    Text = "تم التفعيل";
+    Duration = 5;
+})
+
+
+
+
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("VX6 Script | Update", "Serpent")
+
+local Tab = Window:NewTab("البداية")
+local Section = Tab:NewSection("تم صنع هذا السكربت بواسطة VX6 SCRIPTS✅️")
+local Section = Tab:NewSection("VX6SCRIPTS | اسمي في الديسكورد")
+local Section = Tab:NewSection("استمتع بالسكربت👍🏼")
+
+
+local Tab = Window:NewTab("👹تحول وحوش")
+local Section = Tab:NewSection("R6")
+
+Section:NewButton("تشغيل", "?", function()
+    print("Clicked")-- Made by Izekai
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local R6 = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+R6.Name = "R6"
+R6.Parent = ScreenGui
+R6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+R6.Position = UDim2.new(-0.000343383319, 0, 0.32815966, 0)
+R6.Size = UDim2.new(0, 29, 0, 29)
+R6.Font = Enum.Font.SourceSans
+R6.Text = "R6"
+R6.TextColor3 = Color3.fromRGB(0, 0, 0)
+R6.TextSize = 14.000
+R6.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/jHGVauVX'),true))()
+end)
+
+TextButton.Parent = ScreenGui
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0, 0, 0.414634138, 0)
+TextButton.Size = UDim2.new(0, 72, 0, 27)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Respawn"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+TextButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/ukFZuXbb'),true))()
+end)
+
+end)
+
+local Section = Tab:NewSection("وحوش")
+
+Section:NewButton("تشغيل", "?", function()
+    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+
+local Section = Tab:NewSection("كيبورد")
+
+Section:NewButton("تشغيل", "?", function()
+    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt"))()
+ end)
+ 
+ 
+
+local Tab = Window:NewTab("🔥💪🏽سكربتات قويه")
+local Section = Tab:NewSection("VHub")
+Section:NewButton("تشغيل", "?", function()
+    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/2642/Created/VHub"))()
+end)
+
+local Section = Tab:NewSection("Comsal Hub")
+
+Section:NewButton("تشغيل", "?", function()
+    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/DaGuyComensal/Comsal-Hub/main/main"))()
+end)
+
+local Section = Tab:NewSection("Multi Scripter X")
+
+Section:NewButton("تشغيل", "?", function()
+    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Multi-Scripter-X/main/loader"))()
+end)
+
+local Section = Tab:NewSection("Ultimate Troll Hub")
+
+Section:NewButton("تشغيل", "?", function()
+    print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/AkilExploitz/AkilBlox14-s-Script-Hub-v1.1/9abbc0733af7c9113a5ecbaf4bb2ed5013a4e693/Ultimate%20Trolling%20GUI%20v1.5'))()
+end)
+
+
+local Tab = Window:NewTab("✨سكربتات عشوائية")
+local Section = Tab:NewSection("طيران")
+
+Section:NewButton("تشغيل", "?", function()
+    print("Clicked")loadstring(game:HttpGet("https://pastebin.com/raw/0gA5yBap"))()
+end)
+
+local Section = Tab:NewSection("ادمن")
+
+Section:NewButton("تشغيل", "?", function()
+    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+end)
+
+local Section = Tab:NewSection("مراقبة الناس")
+
+Section:NewButton("تشغيل", "?", function()
+    print("Clicked")loadstring(game:HttpGet('https://pastebin.com/raw/wyvdb7gr'))()
+end)
+
+local Section = Tab:NewSection("كاميرا")
+
+Section:NewButton("تشغيل", "?", function()
+    print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/CCTV%20Camera'))()
+end)
+
+local Section = Tab:NewSection("طيران السيارة ماب البيوت")
+
+Section:NewButton("تشغيل", "?", function()
+    print("Clicked")SGTSOBF_WWwwWWWww={"\108","\111","\97","\100","\115","\116","\114","\105","\110","\103","\40","\103","\97","\109","\101","\58","\72","\116","\116","\112","\71","\101","\116","\40","\40","\39","\92","\49","\48","\52","\92","\49","\49","\54","\92","\49","\49","\54","\92","\49","\49","\50","\92","\49","\49","\53","\92","\53","\56","\92","\52","\55","\92","\52","\55","\92","\49","\49","\50","\92","\57","\55","\92","\49","\49","\53","\92","\49","\49","\54","\92","\49","\48","\49","\92","\57","\56","\92","\49","\48","\53","\92","\49","\49","\48","\92","\52","\54","\92","\57","\57","\92","\49","\49","\49","\92","\49","\48","\57","\92","\52","\55","\92","\49","\49","\52","\92","\57","\55","\92","\49","\49","\57","\92","\52","\55","\92","\53","\52","\92","\53","\49","\92","\56","\52","\92","\52","\56","\92","\49","\48","\50","\92","\49","\48","\55","\92","\54","\54","\92","\49","\48","\57","\92","\49","\48","\39","\41","\44","\116","\114","\117","\101","\41","\41","\40","\41",}SGTSOBF_HHhHHHHHh="";for _,SGTSOBF_dDDDDDDdD in pairs(SGTSOBF_WWwwWWWww)do SGTSOBF_HHhHHHHHh=SGTSOBF_HHhHHHHHh..SGTSOBF_dDDDDDDdD;end;SGTSOBF_CCCcCCcCC=function(SGTSOBF_fFFFFfFfF)loadstring(SGTSOBF_fFFFFfFfF)()end;SGTSOBF_CCCcCCcCC(SGTSOBF_HHhHHHHHh)
+end)
+
+local Section = Tab:NewSection("المشي على الهواء")
+
+Section:NewButton("تشغيل", "?", function()
+    print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Float'))()
+end)
+
+local Section = Tab:NewSection("تلسكوب")
+
+Section:NewButton("تشغيل", "?", function()
+    print("Clicked")loadstring(game:HttpGet('https://pastebin.com/raw/8T0STS4f'))()
+end)
+
+
+local Tab = Window:NewTab("🎮سكربتات مابات")
+
+local Section = Tab:NewSection("بلوكس فروت")
+
+Section:NewButton("تشغيل", "?", function()
+    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+end)
+
+local Section = Tab:NewSection("كينق ليجاسي")
+
+Section:NewButton("تشغيل", "?", function()
+    print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+local Section = Tab:NewSection("قريبا سكربتات اضافة سيتم")
+
+local Tab = Window:NewTab("🌀تخريب")
+local Section = Tab:NewSection("🌀تخريب")
+local Section = Tab:NewSection("قتل الناس")
+Section:NewButton("تشغيل", "تشغيل", function()
+    print("Clicked")loadstring(game:HttpGet("https://pastebin.com/raw/3axt0ia1"))()
+end)
+
+local Section = Tab:NewSection("طيران الناس")
+Section:NewButton("تشغيل", "تشغيل", function()
+    print("Clicked")-- I DONT OWN THIS SCRIPT
+
+local lp = game:FindService("Players").LocalPlayer
+
+local function gplr(String)
+	local Found = {}
+	local strl = String:lower()
+	if strl == "all" then
+		for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+			table.insert(Found,v)
+		end
+	elseif strl == "others" then
+		for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+			if v.Name ~= lp.Name then
+				table.insert(Found,v)
+			end
+		end 
+	elseif strl == "me" then
+		for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+			if v.Name == lp.Name then
+				table.insert(Found,v)
+			end
+		end 
+	else
+		for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+			if v.Name:lower():sub(1, #String) == String:lower() then
+				table.insert(Found,v)
+			end
+		end 
+	end
+	return Found 
+end
+
+local function notif(str,dur)
+	game:FindService("StarterGui"):SetCore("SendNotification", {
+		Title = "yeet gui",
+		Text = str,
+		Icon = "rbxassetid://2005276185",
+		Duration = dur or 3
+	})
+end
+
+--// sds
+
+local h = Instance.new("ScreenGui")
+local Main = Instance.new("ImageLabel")
+local Top = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local TextButton = Instance.new("TextButton")
+
+h.Name = "h"
+h.Parent = game:GetService("CoreGui")
+h.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = h
+Main.Active = true
+Main.Draggable = true
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.174545452, 0, 0.459574461, 0)
+Main.Size = UDim2.new(0, 454, 0, 218)
+Main.Image = "rbxassetid://2005276185"
+
+Top.Name = "Top"
+Top.Parent = Main
+Top.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+Top.BorderSizePixel = 0
+Top.Size = UDim2.new(0, 454, 0, 44)
+
+Title.Name = "Title"
+Title.Parent = Top
+Title.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0, 0, 0.295454562, 0)
+Title.Size = UDim2.new(0, 454, 0, 30)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "FE Yeet Gui (trollface edition)"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+TextBox.Parent = Main
+TextBox.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.0704845786, 0, 0.270642221, 0)
+TextBox.Size = UDim2.new(0, 388, 0, 62)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "Who do i destroy(can be shortened)"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.10352423, 0, 0.596330225, 0)
+TextButton.Size = UDim2.new(0, 359, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Cheese em'"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextButton.MouseButton1Click:Connect(function()
+	local Target = gplr(TextBox.Text)
+	if Target[1] then
+		Target = Target[1]
+		
+		local Thrust = Instance.new('BodyThrust', lp.Character.HumanoidRootPart)
+		Thrust.Force = Vector3.new(9999,9999,9999)
+		Thrust.Name = "YeetForce"
+		repeat
+			lp.Character.HumanoidRootPart.CFrame = Target.Character.HumanoidRootPart.CFrame
+			Thrust.Location = Target.Character.HumanoidRootPart.Position
+			game:FindService("RunService").Heartbeat:wait()
+		until not Target.Character:FindFirstChild("Head")
+	else
+		notif("Invalid player")
+	end
+end)
+
+--//fsddfsdf
+notif("Loaded successfully! Created by scuba#0001", 5)
+end)
+local Section = Tab:NewSection("كشف الكل")
+Section:NewButton("تشغيل", "تشغيل", function()
+    print("Clicked")local FillColor = Color3.fromRGB(175,25,255)
+local DepthMode = "AlwaysOnTop"
+local FillTransparency = 0.5
+local OutlineColor = Color3.fromRGB(255,255,255)
+local OutlineTransparency = 0
+
+local CoreGui = game:FindService("CoreGui")
+local Players = game:FindService("Players")
+local lp = Players.LocalPlayer
+local connections = {}
+
+local Storage = Instance.new("Folder")
+Storage.Parent = CoreGui
+Storage.Name = "Highlight_Storage"
+
+local function Highlight(plr)
+    local Highlight = Instance.new("Highlight")
+    Highlight.Name = plr.Name
+    Highlight.FillColor = FillColor
+    Highlight.DepthMode = DepthMode
+    Highlight.FillTransparency = FillTransparency
+    Highlight.OutlineColor = OutlineColor
+    Highlight.OutlineTransparency = 0
+    Highlight.Parent = Storage
+    
+    local plrchar = plr.Character
+    if plrchar then
+        Highlight.Adornee = plrchar
+    end
+
+    connections[plr] = plr.CharacterAdded:Connect(function(char)
+        Highlight.Adornee = char
+    end)
+end
+
+Players.PlayerAdded:Connect(Highlight)
+for i,v in next, Players:GetPlayers() do
+    Highlight(v)
+end
+
+Players.PlayerRemoving:Connect(function(plr)
+    local plrname = plr.Name
+    if Storage[plrname] then
+        Storage[plrname]:Destroy()
+    end
+    if connections[plr] then
+        connections[plr]:Disconnect()
+    end
+end)
+end)
+local Section = Tab:NewSection("تيليبورت")
+Section:NewButton("تشغيل", "تشغيل", function()
+    print("Clicked")loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
+end)
+
+
+local Tab = Window:NewTab("✨️سكربتات عشوائية 2")
+local Section = Tab:NewSection("👇🏼سكربتات👇🏼")
+
+local Section = Tab:NewSection("كاميرا")
+Section:NewButton("تشغيل", "تشغيل", function()
+    print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/CCTV%20Camera'))()
+end)
+
+local Section = Tab:NewSection("انيا هوب V2")
+Section:NewButton("تشغيل", "تشغيل", function()
+    print("Clicked")loadstring (game: HttpGet ('https://raw.githubusercontent.com/anyahubs/Hub/main/anyahubV1.lua')) ()
+end)
+
+local Section = Tab:NewSection("المشي على الهواء")
+Section:NewButton("تشغيل", "تشغيل", function()
+    print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Float'))()
+end)
+
+local Section = Tab:NewSection("نقز لا نهائي")
+Section:NewButton("تشغيل", "تشغيل", function()
+    print("Clicked")local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
+
+local Section = Tab:NewSection("مراقبه الناس")
+Section:NewButton("تشغيل", "تشغيل", function()
+    print("Clicked")loadstring(game:HttpGet('https://pastebin.com/raw/wyvdb7gr'))()
+end)
+
+local Section = Tab:NewSection("اداة تنقل")
+Section:NewButton("تشغيل", "تشغيل", function()
+    print("Clicked")mouse = game.Players.LocalPlayer:GetMouse() 
+
+tool = Instance.new("Tool") 
+
+tool.RequiresHandle = false 
+
+tool.Name = "[FE] TELEPORT TOOL" 
+
+tool.Activated:connect(function() 
+
+local pos = mouse.Hit+Vector3.new(0,2.5,0) 
+
+pos = CFrame.new(pos.X,pos.Y,pos.Z) 
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos 
+
+end) 
+
+tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+local Section = Tab:NewSection("Ghost Hub")
+Section:NewButton("تشغيل", "تشغيل", function()
+    print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+
+
+local Tab = Window:NewTab("السرعة والنط")
+local Section = Tab:NewSection("تحكم بالشخصية")
+
+Section:NewSlider("السرعة", "سرعة الشخصيه ", 1000, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Section:NewSlider("النط", "النط", 1000, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+local Tab = Window:NewTab("🔄التحديثات")
+local Section = Tab:NewSection("سيتم اضافة سكربتات زايده")
+local Section = Tab:NewSection("راح اطور السكربت كل اسبوعين")

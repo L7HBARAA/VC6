@@ -21,11 +21,11 @@ game.StarterGui:SetCore("SendNotification", {
 
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("VX6 Script | Update", "Serpent")
+local Window = Library.CreateLib("L7H Script | Update", "Serpent")
 
 local Tab = Window:NewTab("البداية")
-local Section = Tab:NewSection("تم صنع هذا السكربت بواسطة VX6 SCRIPTS✅️")
-local Section = Tab:NewSection("VX6SCRIPTS | اسمي في الديسكورد")
+local Section = Tab:NewSection("تم صنع هذا السكربت بواسطة L7H BARAA✅️")
+local Section = Tab:NewSection("l7h_dev | اسمي في الديسكورد")
 local Section = Tab:NewSection("استمتع بالسكربت👍🏼")
 
 
@@ -445,4 +445,4 @@ end)
 
 local Tab = Window:NewTab("🔄التحديثات")
 local Section = Tab:NewSection("سيتم اضافة سكربتات زايده")
-local Section = Tab:NewSection("راح اطور السكربت كل اسبوعين")
+local Section = Tab:NewSection("راح اطور السكربت كل اسبوعين | اذا ما تغير السكربت يعني حساب قيت هوب حقي راح!")
